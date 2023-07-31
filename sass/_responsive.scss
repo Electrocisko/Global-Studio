@@ -1,0 +1,345 @@
+@import 'base';
+
+@media all and (max-width:1000px){
+    .container-formfaq{
+        flex-direction: column;
+        margin: 10%;
+    }
+    #titulo-intouch{
+      padding-left: 0% !important;
+    }
+    #container-intouch{
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #mail-intouch{
+    display: none;
+
+    a{
+      font-size: 1.5rem;
+    }
+  
+    p{
+      margin-top: 10px;
+      text-align: left;
+      color: $color-letra-oscura;
+    }
+  
+  }
+  
+    }
+
+  @media all and (min-width: 900px) {
+    //menu
+    .item {
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+    }
+    .button {
+        order: 2;
+    }
+    .menu li {
+        padding: 15px 10px;
+    }
+    .menu li.button {
+        padding-right: 0;
+    }
+    } 
+  @media all and (max-width:815px){
+    .container-instagram{
+      justify-content: center;
+      margin: 5px;
+    }
+    }
+  
+  @media only screen and (max-width:782px){
+
+    .titulo-index{
+          
+          text-align:center;  
+                
+      }   
+  
+      .parrafo-index{
+          font-size: 1.2rem;
+      }
+  
+      
+      main{
+          margin-left: 2%;
+          margin-right: 2%;
+          padding-left: 1%;
+          padding-right: 1%;
+          padding-top:1% ;
+         }
+  
+     
+      main p {
+          font-size: 1rem;
+        }
+      .contenedor-presentacion{
+         padding: 0%;
+        }
+
+        .texto-izq{
+            font-size: 6rem !important;
+            margin-top: 70px;
+          }
+          .texto-cen{
+            font-size: 3rem !important;
+          }
+          .texto-der{
+            font-size: 4rem !important;
+          }
+       .contenedor-galeria{
+          grid-template-columns: 1fr;
+        }
+  
+            //Pagina services sector titulos con fondo
+     
+            .linea1-titulo{
+              top: 5%;
+              left: 0%;
+              font-size: 1rem;
+           }
+      
+           .linea2-titulo{
+              position: absolute;
+              top: 40%;
+              left: 0%;
+              font-size: 2.5rem;
+          }
+  
+          .item-galeria{
+              width: 100%;
+              height:20rem;
+          }
+      
+      
+          // sector de medio de services
+      
+          .contenedor-services{
+              display: flex;
+              flex-direction: column;
+              margin-top: 0%;
+              margin-bottom: 0%;
+          }
+      
+          #div-arquitectura{
+              height: 0%;
+          }
+      
+          #div-interiorismo{
+              height: 0%;
+          }
+  
+          .contenedor-imagen-circulos{
+   
+     
+  
+              .imagen-fondo-circulos{
+                  width: 150%;
+                  position: relative;
+                  padding-top: 35px;
+              }
+          
+          
+              .contenedor-circulos{
+                  display: flex;
+                  justify-content: center;
+                  height: 3px;
+              
+                  .item-circulo{
+                      width: 90%; 
+                      position: absolute;
+                      bottom: 23%;
+                      padding-left: 15%;
+          
+                  }
+                 
+              }
+   
+           }
+           #service-text-help {
+            margin: 0 10% ;
+            font-size: 1rem;
+        }
+        .contenedor-think .thinkGlobal {
+            width: 80%;
+            position: relative;
+            margin: 10% 0;
+        }
+      
+          //Sector de about
+  
+          #whosbehind-container{
+             
+              grid-template-columns: 1fr;
+  
+              #whosbehind-contact{
+                  margin-top: 5%;
+                  margin-bottom: 5%;
+                 display: block;
+                 text-align: center;
+              }
+             
+              #whosbehind-text{
+               margin-right: auto;
+               text-align: center;
+            }
+              #whosbehind-title{
+                  margin-top: 1%;
+                  margin-bottom: 1%;
+                  font-size: 2rem  ;
+                  text-align: center;
+              }
+  
+              #whosbehind-img{
+                  display: none;
+              }
+  
+          }
+  
+          #process-container{
+              display: none;
+          }
+  
+          .titulo-procces{
+              margin-left: 0%;
+              margin-top: 1%;
+              margin-bottom: 1%;
+              text-align: center;
+          }
+          #process{
+              display: none;
+          }
+           #icono-container{
+              display: none; 
+          }
+  
+          .booking-container{
+             display: inline-block;
+            padding-bottom: 20px;
+             .faqs-container{
+              margin-right: 15px;
+              width:fit-content;
+              margin: 3%;
+              
+          }
+         
+              .book-container{
+                  display: contents;
+                  margin-left: 15px;
+                  width:fit-content;
+                  margin: 3%;
+              }
+  
+              .item-booking{
+                  font-size: 2rem;
+                  margin: 10px;
+              }
+          }
+  
+       
+  
+          .grid-together{
+              flex-direction: column;
+              display: grid;
+          }
+  
+      // Paginas de contacto
+  
+    #texto-intouch{
+      display: none;
+    }
+  
+    #img-intouch{
+        display: none;
+    }
+  
+    
+  // Pagina Blog
+  
+  .titulo-blog{
+     
+      font-size: 3rem;
+  }
+  
+    }
+
+  @media all and (max-width:600px){
+    .container-formfaq{
+        flex-direction: column;
+        margin: 5px;
+    }s
+    .container-form{
+      margin: 0px;
+  }
+    
+    h4{
+      font-size: 4rem !important;
+      
+    }
+    h2{
+      font-size: 3rem  !important;
+      text-align: center;
+      
+    }
+    .fa-angle-right{
+      display: none;
+    }
+    #container-intouch img{
+      display: flex;
+    }
+
+    //menu
+    .menu {
+        
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+    }
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .toggle {
+        order: 2;
+    }
+    .button.secondary {
+        border: 0;
+    }
+    .button a {
+        padding: 7.5px 15px;
+    
+    }
+    .button.secondary a {
+        background: transparent;
+    }
+    .button a:hover {
+        text-decoration: none;
+    }
+    .button:not(.secondary) a:hover {
+        background: #006d6d;
+        border-color: #005959;
+    }
+    .button.secondary a:hover {
+        color: #ddd;
+    }
+    }
